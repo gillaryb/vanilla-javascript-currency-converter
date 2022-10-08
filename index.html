@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1>Currency Converter</h1>
-      <form action="#">
+      <form action="#" class="inner-container">
         <div class="from-box">
           <select name="currency" class="from-currency"></select>
           <input type="number" id="from-input" />
@@ -18,8 +25,8 @@
           <select name="currency" class="to-currency"></select>
           <input type="number" id="to-result" />
         </div>
-        <button class="btn-exchange" id="btn">CONVERT</button>
       </form>
+      <button class="btn-exchange" id="btn">CONVERT</button>
     </div>
   </body>
 </html>
